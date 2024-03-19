@@ -8,7 +8,7 @@ title: Selected Projects
     <img src="paper_hac_teaser.png" alt="mmme" style="max-width: 100%; margin-top: 10px; margin-left: 10px;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
-    <p>HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</p>
+    <p>这是放在图片右边的文字。</p>
     <p><a href="https://www.google.com.hk" target="_blank">点击这里前往谷歌2</a></p>
   </div>
 </div>
