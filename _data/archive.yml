@@ -1,6 +1,6 @@
-# - type: home
-#   title: Home
-#   url: /
+- type: home
+  title: Home
+  url: /
 # - type: dates
 #   title: Dates
 #   url: /dates/
