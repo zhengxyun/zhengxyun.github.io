@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: paper_page
 permalink: /paper_hac/
 ---
 
