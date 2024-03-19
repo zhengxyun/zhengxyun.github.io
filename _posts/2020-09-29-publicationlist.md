@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Welcome to Not Pure Poole
-date: 2020-09-29 23:18 +0800
-last_modified_at: 2020-10-01 01:08:25 +0800
-tags: [jekyll theme, jekyll, tutorial]
-toc:  true
+title: Publication List
 ---
+
+1. Y. Chen, Q. Wu, M. Harandi, J. Cai, "How Far Can We Compress Instant-NGP-Based NeRF?", CVPR 2024.
+2. Y. Chen, Q. Wu, J. Cai, M. Harandi, W. Lin, "HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression", arXiv preprint arXiv:xxxx.xxxxx (2024).
+3. Y. Chen, W. Dong, Y. Xie, "A dual realization of Chua’s chaotic oscillator using a current-controlled nonlinear resistor." 2021 IEEE 3rd International Conference on Circuits and Systems (ICCS). IEEE, 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9697183)] (*This is my very first published paper. Appreciation to [Prof. Weijie Dong](http://faculty.dlut.edu.cn/0912345/zh_CN/index.htm)*'s guidance without reservation.)
+
+
+<!--
 Welcome to **Not Pure Poole**! This is an example post to show the layout.
 {: .message }
 
@@ -167,3 +170,5 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 Want to see something else added? <a href="https://github.com/vszhub/not-pure-poole/issues/new">Open an issue.</a>
 
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
+
+-->
