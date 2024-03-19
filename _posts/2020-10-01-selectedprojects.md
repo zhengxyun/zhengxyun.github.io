@@ -8,8 +8,9 @@ title: Selected Projects
     <img src="me.png" alt="mmme" style="max-width: 100%; margin-top: 10px; margin-left: 10px;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
-    <p>这是放在图片右边的文字。</p>
-    <p><a href="https://www.google.com.hk" target="_blank">点击这里前往谷歌</a></p>
+    <p>HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</p>
+    <p><a href="https://yihangchen-ee.github.io" target="_blank">Yihang Chen</a></p>
   </div>
 </div>
+
 
