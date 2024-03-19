@@ -1,5 +1,5 @@
 - type: home
-  # title: Dates
+  title: Home
   url: /
 - type: dates
   title: Dates
