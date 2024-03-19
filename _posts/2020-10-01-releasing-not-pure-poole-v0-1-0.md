@@ -1,11 +1,6 @@
 ---
 layout: post
-title: shishikan
-author: Songzi Vong
-tags:
-- jekyll theme
-- jekyll
-date: 2020-10-01 13:56 +0800
+title: Selected Projects
 ---
 The Jekyll theme **Not Pure Poole** v0.1.0 was released!
 
