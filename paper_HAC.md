@@ -1,5 +1,5 @@
 ---
-layout: archive-dates
+layout: page
 permalink: /paper_hac/
 ---
 
