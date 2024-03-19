@@ -9,7 +9,8 @@ title: Selected Projects
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>这是放在图片右边的文字。</p>
-    <p>可以在这里放置更多文字内容。</p>
+    <p><a href="https://www.google.com.hk" target="_blank">点击这里前往谷歌</a></p>
   </div>
 </div>
+
 
