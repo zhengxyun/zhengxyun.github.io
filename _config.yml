@@ -29,14 +29,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: cyh
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Yihang Chen
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    # - https://twitter.com/vszhub
+    - https://yihangchen-ee.github.io
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Yihang Chen
+  url: https://yihangchen-ee.github.io
+  email: yhchen.ee@sjtu.edu.cn
