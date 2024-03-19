@@ -2,10 +2,10 @@
 title: Yihang Chen
 description: SJTU-Monash
 url: https://yihangchen-ee.github.io
-avatar: /avatar.jpeg
+avatar: /me.png
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /pexels-ertuğrul-salih-ileri-17214797.jpg
 
 # Gems
 plugins:
