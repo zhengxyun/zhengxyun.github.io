@@ -9,7 +9,7 @@ title: Selected Projects
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</p>
-    <p><a href="https://yihangchen-ee.github.io" target="_blank">Yihang Chen</a></p>
+    <p><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
   </div>
 </div>
 
