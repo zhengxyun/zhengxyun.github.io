@@ -3,9 +3,10 @@ layout: post
 title: Publication List
 ---
 
- - Y. Chen, Q. Wu, M. Harandi, J. Cai, "How Far Can We Compress Instant-NGP-Based NeRF?", CVPR 2024.
- - Y. Chen, Q. Wu, J. Cai, M. Harandi, W. Lin, "HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression", arXiv preprint arXiv:xxxx.xxxxx (2024).
- - Y. Chen, W. Dong, Y. Xie, "A dual realization of Chua’s chaotic oscillator using a current-controlled nonlinear resistor." 2021 IEEE 3rd International Conference on Circuits and Systems (ICCS). IEEE, 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9697183)] (*This is my very first published paper. Most sincere appreciations to [Prof. Weijie Dong](http://faculty.dlut.edu.cn/0912345/zh_CN/index.htm)*'s guidance to this paper.)
+
+ - <small>Y. Chen, Q. Wu, M. Harandi, J. Cai, "How Far Can We Compress Instant-NGP-Based NeRF?", CVPR 2024.</small>
+ - <small>Y. Chen, Q. Wu, J. Cai, M. Harandi, W. Lin, "HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression", arXiv preprint arXiv:xxxx.xxxxx (2024).</small>
+ - <small>Y. Chen, W. Dong, Y. Xie, "A dual realization of Chua’s chaotic oscillator using a current-controlled nonlinear resistor." 2021 IEEE 3rd International Conference on Circuits and Systems (ICCS). IEEE, 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9697183)] (*This is my very first published paper. Most sincere appreciations to [Prof. Weijie Dong](http://faculty.dlut.edu.cn/0912345/zh_CN/index.htm)*'s guidance to this paper.)</small>
 
 
 <!--
