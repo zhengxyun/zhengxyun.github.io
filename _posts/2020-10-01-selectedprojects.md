@@ -6,9 +6,9 @@ title: Selected Projects
 <div style="margin-bottom: 20px;">
   <div style="display: flex; align-items: center; background-color: rgb(133, 149, 171); color: black; border-radius: 4px; overflow: hidden;">
     <div style="flex: 1;">
-      <img src="/paper_cnc_teaser.png" style="max-height: 105pt; margin-top: 11px; margin-left: 20px;">
+      <img src="/paper_cnc_teaser.png" style="max-height: 105pt; margin-top: 5px; margin-left: 30px;">
     </div>
-    <div style="flex: 2; padding-left: 1px; padding-top: 12px; padding-bottom: 12px; margin-left: 20px;">
+    <div style="flex: 2; padding-left: 1px; padding-top: 12px; padding-bottom: 7px; margin-left: 20px;">
       <p style="margin: 1px 0;"><b>How Far Can We Compress Instant-NGP-Based NeRF?</b></p>
       <p style="margin: 10px 0;"><em>CVPR'2024</em></p>
       <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
@@ -23,9 +23,9 @@ title: Selected Projects
 
   <div style="display: flex; align-items: center; background-color: rgb(133, 149, 171); color: black; border-radius: 4px; overflow: hidden;">
     <div style="flex: 1;">
-      <img src="/paper_hac_teaser.png" style="max-height: 105pt; margin-top: 11px; margin-left: 20px;">
+      <img src="/paper_hac_teaser.png" style="max-height: 105pt; margin-top: 5px; margin-left: 30px;">
     </div>
-    <div style="flex: 2; padding-left: 1px; padding-top: 12px; padding-bottom: 12px; margin-left: 20px;">
+    <div style="flex: 2; padding-left: 1px; padding-top: 12px; padding-bottom: 7px; margin-left: 20px;">
       <p style="margin: 1px 0;"><b>HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</b></p>
       <p style="margin: 10px 0;"><em>arxiv preprint 2024</em></p>
       <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a></p>
