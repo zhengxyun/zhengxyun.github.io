@@ -6,7 +6,7 @@ title: Selected Projects
 <div style="margin-bottom: 20px;">
   <div style="display: flex; align-items: center; background-color: rgb(133, 149, 171); color: black; border-radius: 4px; overflow: hidden;">
     <div style="flex: 1;">
-      <img src="/paper_cnc_teaser.png" style="max-height: 105pt; margin-top: 12px; margin-left: 30px;">
+      <img src="/paper_cnc_teaser.png" style="max-height: 105pt; margin-top: 12px; margin-left: 20px;">
     </div>
     <div style="flex: 2; padding-left: 1px; padding-top: 12px; padding-bottom: 13px; margin-left: 20px;">
       <p style="margin: 1px 0;"><b>How Far Can We Compress Instant-NGP-Based NeRF?</b></p>
@@ -23,7 +23,7 @@ title: Selected Projects
 
   <div style="display: flex; align-items: center; background-color: rgb(133, 149, 171); color: black; border-radius: 4px; overflow: hidden;">
     <div style="flex: 1;">
-      <img src="/paper_hac_teaser.png" style="max-height: 105pt; margin-top: 12px; margin-left: 30px;">
+      <img src="/paper_hac_teaser.png" style="max-height: 105pt; margin-top: 12px; margin-left: 20px;">
     </div>
     <div style="flex: 2; padding-left: 1px; padding-top: 12px; padding-bottom: 13px; margin-left: 20px;">
       <p style="margin: 1px 0;"><b>HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</b></p>
