@@ -10,5 +10,5 @@
 # - type: tags
 #   title: Tags
 #   url: /tags/
-- utl: /paper_HAC/
-- utl: /paper_CNC/
+- url: /paper_HAC/
+- url: /paper_CNC/
