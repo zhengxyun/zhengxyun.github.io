@@ -1,6 +1,6 @@
 ---
 layout: paper_page
-permalink: /paper_hac/
+permalink: /paper_HAC/
 ---
 
 This is HAC ...
