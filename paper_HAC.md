@@ -1,146 +1,168 @@
----
-layout: paper_page
-permalink: /paper_hac/
----
+<!DOCTYPE html>
+<html>
 
-# HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression
-[Yihang Chen](https://yihangchen-ee.github.io), 
-[Qianyi Wu](https://qianyiwu.github.io), 
-[Jianfei Cai](http://jianfei-cai.github.io), 
-[Mehrtash Harandi](https://sites.google.com/site/mehrtashharandi/),
-[Weiyao Lin](https://weiyaolin.github.io)
+<head>
+  <meta charset="utf-8">
 
-[[`Arxiv`](...)] [[`Project Page`](https://yihangchen-ee.github.io/paper_hac/)] [[`Github`](https://github.com/YihangChen-ee/HAC)]
+  <title>MVSplat</title>
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
 
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> -->
+  <link rel="stylesheet" href="static/css/index.css">
 
-## Overview
-<p align="left">
-<img src="assets/teaser.png" width=80% height=80% 
-class="center">
-</p>
+  <!-- <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script> -->
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+</head>
 
-Our approach introduces a binary hash grid to establish continuous spatial consistencies, 
-allowing us to unveil the inherent spatial relations of anchors through a carefully designed context model. 
-To facilitate entropy coding, we utilize Gaussian distributions to accurately estimate the probability of each quantized attribute, 
-where an adaptive quantization module is proposed to enable high-precision quantization of these attributes for improved fidelity restoration.
- Additionally, we incorporate an adaptive masking strategy to eliminate invalid Gaussians and anchors. 
-Importantly, our work is the pioneer to explore context-based compression for 3DGS representation, resulting in a remarkable size reduction.
+<body>
+  <div class="container">
+    <!-- Title -->
+    <h1 class="pt-5 title">MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images</h1>
+    <div class="d-flex flex-row justify-content-center">
+        Yuedong Chen &emsp; Haofei Xu &emsp; Chuanxia Zheng &emsp; Bohan Zhuang <br>
+        Marc Pollefeys &emsp; Andreas Geiger &emsp; Tat-Jen Cham &emsp; Jianfei Cai
+    </div>
 
-## Performance
-<p align="left">
-<img src="assets/main_performance.png" width=80% height=80% 
-class="center">
-</p>
-
-
-## Installation
-
-We tested our code on a server with Ubuntu 20.04.1, cuda 11.8, gcc 9.4.0
-1. Unzip files
-```
-cd submodules
-unzip diff-gaussian-rasterization.zip
-unzip gridencoder.zip
-unzip simple-knn.zip
-cd ..
-```
-2. Install environment
-```
-conda env create --file environment.yml
-conda activate HAC_env
-```
-
-## Data
-
-First, create a ```data/``` folder inside the project path by 
-```
-mkdir data
-```
-
-The data structure will be organised as follows:
-
-```
-data/
-├── dataset_name
-│   ├── scene1/
-│   │   ├── images
-│   │   │   ├── IMG_0.jpg
-│   │   │   ├── IMG_1.jpg
-│   │   │   ├── ...
-│   │   ├── sparse/
-│   │       └──0/
-│   ├── scene2/
-│   │   ├── images
-│   │   │   ├── IMG_0.jpg
-│   │   │   ├── IMG_1.jpg
-│   │   │   ├── ...
-│   │   ├── sparse/
-│   │       └──0/
-...
-```
-
- - For instance: `./data/blending/drjohnson/`
- - For instance: `./data/bungeenerf/amsterdam/`
- - For instance: `./data/mipnerf360/bicycle/`
- - For instance: `./data/nerf_synthetic/chair/`
- - For instance: `./data/tandt/train/`
+    <div class="w-100 d-flex flex-row justify-content-center mt-4 gap-2">
+      <!-- Paper PDF -->
+      <a href="static/pdfs/chen2024mvsplat.pdf" target="_blank" class="btn btn-dark" role="button">
+        <span class="icon">
+          <i class="fas fa-file-pdf"></i>
+        </span>
+        <span>Paper</span>
+      </a>
+    
+      <!-- Code -->
+      <a href="https://github.com/donydchen/mvsplat" target="_blank" class="btn btn-dark" role="button">
+        <span class="icon">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>Code</span>
+      </a>
+      
+      <!-- Pre-trained Models -->
+      <a href="#" target="_blank"
+        class="btn btn-dark" role="button">
+        <span class="icon">
+          <i class="fas fa-database"></i>
+        </span>
+        <span>Pre-trained Models</span>
+      </a>
+    </div>
 
 
-### Public Data (We follow suggestions from [Scaffold-GS](https://github.com/city-super/Scaffold-GS))
 
- - The **BungeeNeRF** dataset is available in [Google Drive](https://drive.google.com/file/d/1nBLcf9Jrr6sdxKa1Hbd47IArQQ_X8lww/view?usp=sharing)/[百度网盘[提取码:4whv]](https://pan.baidu.com/s/1AUYUJojhhICSKO2JrmOnCA). 
- - The **MipNeRF360** scenes are provided by the paper author [here](https://jonbarron.info/mipnerf360/). And we test on its entire 9 scenes ```bicycle, bonsai, counter, garden, kitchen, room, stump, flowers, treehill```. 
- - The SfM datasets for **Tanks&Temples** and **Deep Blending** are hosted by 3D-Gaussian-Splatting [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip). Download and uncompress them into the ```data/``` folder.
+    <!-- Teaser -->
+    <!-- <div class="d-flex flex-row justify-content-center py-5">
+      <figure>
+        <img src="static/images/teaser.png" class="img-fluid teaser" alt="teaser image" />
+        <figcaption id="teaser-caption">MVSplat surpasses pixelSplat in appearance and geometry quality with 10&times; fewer parameters and
+        more than 2&times; faster inference speed.</figcaption>
+      </figure>
+    </div> -->
 
-### Custom Data
-
-For custom data, you should process the image sequences with [Colmap](https://colmap.github.io/) to obtain the SfM points and camera poses. Then, place the results into ```data/``` folder.
-
-## Training
-
-To train scenes, we provide the following training scripts: 
- - Tanks&Temples: ```run_shell_tnt.py```
- - MipNeRF360: ```run_shell_mip360.py```
- - BungeeNeRF: ```run_shell_bungee.py```
- - Deep Blending: ```run_shell_db.py```
- - Nerf Synthetic: ```run_shell_blender.py```
-
- run them with 
- ```
- python run_shell_xxx.py
- ```
-
-The code will automatically run the entire process of: **training, encoding, decoding, testing**.
- - Training log will be recorded in `output.log` of the output directory. Results of **detailed fidelity, detailed size, detailed time** will all be recorded
- - Encoded bitstreams will be stored in `./bitstreams` of the output directory.
- - Evaluated output images will be saved in `./test/ours_30000/renders` of the output directory.
- - Optionally, you can change `lmbda` in these `run_shell_xxx.py` scripts to try variable bitrate.
+    <div class="w-100 my-4">
+      <video class="w-100 d-block" autoplay controls muted loop>
+        <source src="static/videos/teaser.mp4" type="video/mp4">
+      </video>
+    </div>
 
 
-## Contact
+  <div class="main-contain">
 
-- Yihang Chen: yhchen.ee@sjtu.edu.cn
+    <!-- TL;DR -->
+    <h2>TL;DR</h2>
+    <div class="alert alert-primary tldr mb-4">
+      MVSplat builds a cost volume representation to efficiently predict 3D Gaussians primitives from sparse
+      multi-view images in a single forward pass.
+    </div>
 
-## Citation
+    <!-- Abstract -->
+    <h2>Abstract</h2>
+    <p class="mb-4" id="abstract">
+      We propose MVSplat, an efficient feed-forward 3D Gaussian Splatting model learned from sparse multi-view images. To
+      accurately localize the Gaussian centers, we propose to build a cost volume representation via plane sweeping in the 3D
+      space, where the cross-view feature similarities stored in the cost volume can provide valuable geometry cues to the
+      estimation of depth. We learn the Gaussian primitives' opacities, covariances, and spherical harmonics coefficients
+      jointly with the Gaussian centers while only relying on photometric supervision. We demonstrate the importance of the
+      cost volume representation in learning feed-forward Gaussian Splatting models via extensive experimental evaluations. On
+      the large-scale RealEstate10K and ACID benchmarks, our model achieves state-of-the-art performance with the fastest
+      feed-forward inference speed (22 fps). <b>Compared to the latest state-of-the-art method pixelSplat, our model uses 10&times; 
+      fewer parameters and infers more than 2&times; faster while providing higher appearance and geometry quality as
+      well as better cross-dataset generalization.</b>
+    </p>
 
-If you find our work helpful, please consider citing:
+    <h2>Architecture</h2>
+    <figure>
+      <img src="static/images/architecture.png" class="img-fluid teaser" alt="architecture" />
+      <figcaption style="font-size: smaller;text-align: justify;"><b>Overview of MVSplat.</b> Given multiple posed images as input, we first extract
+      multi-view image features with a multi-view Transformer, which contains self- and
+      cross-attention layers to exchange information across views. Next, we construct per-
+      view cost volumes using plane sweeping. The Transformer features and cost volumes
+      are concatenated together as input to a 2D U-Net (with cross-view attention) for cost
+      volume refinement and predicting per-view depth maps. The per-view depth maps are
+      unprojected to 3D and combined using a simple deterministic union operation as the 3D
+      Gaussian centers. The opacity, covariance and color Gaussian parameters are predicted
+      jointly with the depth maps. Finally, novel views are rendered from the predicted 3D
+      Gaussians with the splatting operation.</figcaption>
+    </figure>
 
-```bibtex
-@misc{xxx,
-      title={xxx}, 
-      author={Y. Chen, Q. Wu, J. Cai, M. Harandi, and W. Lin},
-      year={2024},
-      eprint={xxx},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
+    <!-- Comparisons -->
+    <h2>Comparisons with the State-of-the-art</h2>
+    <p>We present qualitative comparisons with the following state-of-the-art models:</p>
+    <ul>
+      <li><a href="https://davidcharatan.com/pixelsplat/">pixelSplat</a>: The latest feed-forward 3D Gaussians model
+        that utilies data-driven regression architecture to predict Gaussian centers, leading to 
+        poor geometry reconstruction and limited ability of cross-dataset generalization.</li>
+      <li><a href="https://haofeixu.github.io/murf/">MuRF</a>: The latest feed-forward NeRF model that leverages 
+        3D volume and (2+1)D CNN, which is expensive to train and renders comparably slowly.</li>
+    </ul>
 
-## LICENSE
+    <img src="static/images/sota_comparisons.png" class="img-fluid w-100 mt-2 mb-3" alt="comparison on Real Estate 10k and ACID dataset" />
+    <div class="border w-100 mb-4">
+      <video class="w-100 d-block" autoplay controls muted loop>
+        <source src="static/videos/sota_comparisons.mp4" type="video/mp4">
+      </video>
+    </div>
 
-Please follow the LICENSE of [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting).
+    <!-- Geometry -->
+    <h2>Comparisons of Geometry Reconstruction</h2>
+    <p>Our MVSplat produces significantly higher-quality 3D Gaussian primitives than the latest state-of-the-art
+      pixelSplat. The readers are invited to view the corresponding ".ply" files of the 3D Gaussians exported from
+      both models provided at <b><a href="#" target="_blank">HERE</a></b>.
+      We recommend viewing them with online viewers, <i>e.g.</i>,
+      <a href="https://projects.markkellogg.org/threejs/demo_gaussian_splats_3d.php?art=1&cu=0,0,1&cp=0,1,0&cla=1,0,0"
+        target="_blank">3D Gaussian Splatting with Three.js</a>
+      (camera up should be set to "0,0,1").
+    </p>
+    <img src="static/images/point_clouds.png" class="img-fluid w-100 mt-2 mb-3" alt="point clouds and depth maps" />
 
-## Acknowledgement
+    <!-- cross-dataset -->
+    <h2>Comparisons of Cross-dataset Generalization</h2> 
+    <p>Our MVSplat is inherently superior in generalizing to <em>out-of-distribution</em> novel scenes, primarily due to the fact that the
+    cost volume captures the <em>relative similarity</em> between features, which remains <em>invariant</em> compared to the absolute scale of
+    features. Here, we present cross-dataset generalization by training models solely on RealEstate10K (indoor scenes), and directly 
+    test them on DTU (object-centric scenes) and ACID (outdoor scenes).</p>
+    <img src="static/images/re10k_generalization.png" class="img-fluid w-100 mt-2 mb-3"
+      alt="trained on RealEstate10K, and tested on DTU and ACID" />
+    <div class="border w-100 mb-4">
+      <video class="w-100 d-block" autoplay controls muted loop>
+        <source src="static/videos/re10k_generalization.mp4" type="video/mp4">
+      </video>
+    </div>
 
- - We thank all authors from [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting) for presenting such an excellent work.
- - We thank all authors from [Scaffold-GS](https://github.com/city-super/Scaffold-GS) for presenting such an excellent work.
+  </div>
+
+    <!-- Footer -->
+    <footer class="border-top mt-5 py-4">
+      This page's code uses elements from this <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+        target="_blank">Academic Project Page
+        Template</a>.
+    </footer>
+  </div>
+</body>
+
+</html>
