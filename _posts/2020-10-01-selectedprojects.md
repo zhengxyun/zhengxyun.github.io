@@ -5,12 +5,12 @@ title: Selected Projects
 
 <div style="display: flex; align-items: center; background-color: rgb(133, 149, 171); color: black; border-radius: 4px;">
   <div style="flex: 1;">
-    <img src="/paperhacteaser.png" style="max-width: 80%; margin-top: 11px; margin-left: 16px;">
+    <img src="/paperhacteaser.png" style="max-width: 80%; margin-top: 11px; margin-left: 25px;">
   </div>
-  <div style="flex: 2; padding-left: 12px;">
-    <p style="margin: 5px 0;">HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</p>
-    <p style="margin: 3px 0;"><em>CVPR'2024</em></p>
-    <p style="margin: 3px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
-    <p style="margin: 3px 0;"><a href="https://yihangchen-ee.github.io/" target="_blank">[PDF]</a>, <a href="https://yihangchen-ee.github.io/paper_hac/" target="_blank">[Project Page]</a>, <a href="https://github.com/yihangchen-ee/hac/" target="_blank">[Code]</a></p>
+  <div style="flex: 2; padding-left: 10px; padding-top: 15px; padding-bottom: 15px;">
+    <p style="margin: 1px 0;">HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</p>
+    <p style="margin: 1px 0;"><em>CVPR'2024</em></p>
+    <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
+    <p style="margin: -1px 0;"><a href="https://yihangchen-ee.github.io/" target="_blank">[PDF]</a>, <a href="https://yihangchen-ee.github.io/paper_hac/" target="_blank">[Project Page]</a>, <a href="https://github.com/yihangchen-ee/hac/" target="_blank">[Code]</a></p>
   </div>
 </div>
