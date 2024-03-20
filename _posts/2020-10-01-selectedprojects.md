@@ -8,7 +8,7 @@ title: Selected Projects
     <img src="/paper_hac_teaser.png" style="max-height: 105pt; margin-top: 11px; margin-left: 20px;">
   </div>
   <div style="flex: 2; padding-left: -45px; padding-top: 12px; padding-bottom: 12px;">
-    <p style="margin: 1px 0;">HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</p>
+    <p style="margin: 1px 0;"><b>HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</b></p>
     <p style="margin: 10px 0;"><em>CVPR'2024</em></p>
     <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
     <p style="margin: -1px 0;"><a href="https://yihangchen-ee.github.io/" target="_blank">[PDF]</a>, <a href="https://yihangchen-ee.github.io/paper_hac/" target="_blank">[Project Page]</a>, <a href="https://github.com/yihangchen-ee/hac/" target="_blank">[Code]</a></p>
