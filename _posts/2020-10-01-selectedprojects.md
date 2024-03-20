@@ -5,7 +5,7 @@ title: Selected Projects
 
 <div style="display: flex; align-items: center; background-color: rgb(133, 149, 171); color: black; border-radius: 4px;">
   <div style="flex: 1;">
-    <img src="/paperhacteaser.png" style="max-height: 95pt; margin-top: 11px; margin-left: 20px;">
+    <img src="/paper_hac_teaser.png" style="max-height: 95pt; margin-top: 11px; margin-left: 20px;">
   </div>
   <div style="flex: 2; padding-left: -25px; padding-top: 12px; padding-bottom: 12px;">
     <p style="margin: 1px 0;">HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</p>
