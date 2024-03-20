@@ -3,7 +3,7 @@
   icon: fas fa-envelope
 - title: Scholar
   url: https://scholar.google.com/citations?user=05KWkUAAAAAJ&hl=en
-  icon: fab fa-twitter
+  icon: fa-brands fa-google-scholar
 - title: GitHub
   url: https://github.com/vszhub/not-pure-poole
   icon: fab fa-github
