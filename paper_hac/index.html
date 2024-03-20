@@ -190,9 +190,11 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width"  align="center">
-        <h2 class="title is-3">ImageNet-1K</h2>
+        <h2 class="title is-3">Main Method</h2>
         <p>
-          Based on DeiT3 model family, we finetune SN-Netv2 on ImageNet-1K with 50 epochs and compare it with V1.
+          Overview of our HAC framework. It is based on Scaffold-GS (top), which introduces anchors with their attributes to neural-predict 3D Gaussian attributes.
+          Middle: Our HAC framework jointly learns structured compact hash grid (binarized for each parameter) that can be queried at any anchor location to obtain the interpolated hash feature
+          and use it for context modeling of anchor attributes. Please refer to the paper for more details.
         </p>
         <img src="./static/images/imagenet_res.jpg"/>
         <!--/ Interpolating. -->
@@ -201,64 +203,18 @@
     </div>
     <!--/ Animation. -->
 
-
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column" align="center">
-        <div class="content" >
-          <h2 class="title is-3">ADE20K</h2>
-          <p>
-            Based on DeiT3-Small/Base/Large, we finetune SN-Netv2 on ADE20K with 160K iterations and compare it with V1.
-          </p>
-          <img src="./static/images/ade20k.png"/>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column" align="center">
-        <h2 class="title is-3">COCO-Stuff-10K</h2>
-        <div class="columns is-centered">
-          <div class="column content" align="center">
-            <p>
-              Based on DeiT3-Small/Base/Large, we finetune SN-Netv2 on COCO-Stuff-10K with 80K iterations and compare it with V1.
-            </p>
-            <img src="./static/images/coco_stuff.png"/>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
-
-
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width"  align="center">
-        <h2 class="title is-3">Depth Estimation on NYUv2</h2>
-
-        <img src="./static/images/depth_estimation.png"/>
+        <h2 class="title is-3">Main Performance</h2>
+        <img src="./static/images/imagenet_res.jpg"/>
+        <img src="./static/images/imagenet_res.jpg"/>
         <!--/ Interpolating. -->
 
       </div>
     </div>
     <!--/ Animation. -->
 
-
-
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width"  align="center">
-        <h2 class="title is-3">Training Efficiency Comparison</h2>
-
-        <img src="./static/images/train_effciency.jpg"/>
-        <!--/ Interpolating. -->
-
-      </div>
-    </div>
-    <!--/ Animation. -->
 
 
     <!-- Concurrent Work. -->
