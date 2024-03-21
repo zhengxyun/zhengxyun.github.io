@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Compression for the 3D Gaussian Splatting Structure">
-  <meta name="keywords" content="3DGS, Compression">
+        content="Compression for the Instant-NGP Structure">
+  <meta name="keywords" content="NeRF, INGP, Compression">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</title>
+  <title>Coming Soon ...</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -66,8 +66,8 @@
           Related Researches
         </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://yihangchen-ee.github.io/project_cnc/">
-            CNC
+          <a class="navbar-item" href="https://yihangchen-ee.github.io/project_hac/">
+            3DGS compression: HAC
           </a>
         </div>
       </div>
@@ -82,20 +82,19 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</h1>
+          <h1 class="title is-1 publication-title">Coming Soon ...</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://yihangchen-ee.github.io/">Yihang Chen</a>,</span>
+              <a href="https://yihangchen-ee.github.io/">Yihang Chen</a>,
+            </span>
             <span class="author-block">
-              <a href="https://qianyiwu.github.io/">Qianyi Wu</a>,</span>
-            <span class="author-block">
-              <a href="http://jianfei-cai.github.io/">Jianfei Cai</a>,
+              <a href="https://qianyiwu.github.io/">Qianyi Wu</a>,
             </span>
             <span class="author-block">
               <a href="https://sites.google.com/site/mehrtashharandi/">Mehrtash Harandi</a>,
             </span>
             <span class="author-block">
-              <a href="https://weiyaolin.github.io/">Weiyao Lin</a>,
+              <a href="http://jianfei-cai.github.io/">Jianfei Cai</a>,
             </span>
           </div>
 
@@ -128,7 +127,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/YihangChen-ee/HAC"
+                <a href="https://github.com/YihangChen-ee/CNC"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -143,261 +142,6 @@
     </div>
   </div>
 </section>
-
-
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img src="./static/images/teaser.png" alt="Teaser image."/>
-      <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video> -->
-      <h2 class="subtitle has-text-centered">
-        Our core idea is to further exploit the inherent consistencies of anchors via a structured hash grid for a more compact 3DGS representation.
-      </h2>
-    </div>
-    <br>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            <em>Our work is the pioneer to explore context-based compression for 3DGS representation, resulting in a remarkable size reduction of over <font color="#FF0000"><b>75X</b></font>  compared to vanilla 3DGS, while simultaneously improving fidelity, and achieving over <font color="#FF0000"><b>11X</b></font> size reduction over SOTA 3DGS compression approach Scaffold-GS.</em>
-          </p>
-          <p>
-            3D Gaussian Splatting (3DGS) has emerged as a promising framework for novel view synthesis, boasting rapid rendering speed with high fidelity.
-            However, the substantial Gaussians and their associated attributes necessitate effective compression techniques. Nevertheless, the sparse and unorganized nature of the point cloud of Gaussians (or anchors in our paper) presents challenges for compression. To address this, we make use of the relations between the unorganized anchors and the structured hash grid, leveraging their mutual information for context modeling, and propose a Hash-grid Assisted Context (HAC) framework for highly compact 3DGS representation.
-          </p>
-          <p>
-            Our approach introduces a binary hash grid to establish continuous spatial consistencies, allowing us to unveil the inherent spatial relations of anchors through a carefully designed context model.
-            To facilitate entropy coding, we utilize Gaussian distributions to accurately estimate the probability of each quantized attribute, where an adaptive quantization module is proposed to enable high-precision quantization of these attributes for improved fidelity restoration. Additionally, we incorporate an adaptive masking strategy to eliminate invalid Gaussians and anchors.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-</section>
-
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width"  align="center">
-        <h2 class="title is-3">Main Method</h2>
-        <p>
-          Overview of our HAC framework. It is based on Scaffold-GS (top), which introduces anchors with their attributes to neural-predict 3D Gaussian attributes.
-          Middle: Our HAC framework jointly learns structured compact hash grid (binarized for each parameter) that can be queried at any anchor location to obtain the interpolated hash feature
-          and use it for context modeling of anchor attributes. Please refer to the paper for more details.
-        </p>
-        <img src="./static/images/main_method.png"/>
-        <!--/ Interpolating. -->
-
-      </div>
-    </div>
-    <!--/ Animation. -->
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width"  align="center">
-        <h2 class="title is-3">Main Performance</h2>
-        <img src="./static/images/qualititave_curve.png"/>
-        <img src="./static/images/quantitative_table.png"/>
-        <!--/ Interpolating. -->
-
-      </div>
-    </div>
-    <!--/ Animation. -->
-
-
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
-
-  </div>
-</section>
-
-
-
-<section class="section">
-    <div class="container ">
-      <div class=" has-text-centered">
-        <h2 class="title is-3">Visual Comparisons</h2>
-        <div class="content has-text-justified">
-          <p>
-
-          </p>
-        </div>
-        <div class="columns is-centered">
-          <!-- Visual Effects. -->
-          <div class="column">
-            <div class="content">
-              <div class="columns is-centered">
-                <div class="column is-full-width">
-                  <div id="example1" class="bal-container-small">
-
-                    <div class="bal-after">
-                      <img src="./static/images/vis_1_ours.png">
-                      <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                        Ours
-                      </div>
-                    </div>
-
-                    <div class="bal-before" style="width:96.4968152866242%;">
-                      <div class="bal-before-inset" style="width: 539px;">
-                        <img src="./static/images/vis_1_3dgs.png">
-                        <div class="bal-beforePosition beforeLabel">
-                          3d-gs [Kerbl 2023]
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="bal-handle" style="left:96.4968152866242%;">
-                      <span class=" handle-left-arrow"></span>
-                      <span class="handle-right-arrow"></span>
-                    </div>
-
-                  </div>
-
-
-                  <div id="example2" class="bal-container-small">
-
-                    <div class="bal-after">
-                      <img src="./static/images/vis_1_ours.png">
-                      <div class="bal-afterPosition afterLabel">
-                        Ours
-                      </div>
-                    </div>
-
-                    <div class="bal-before" style="width: 50%;">
-                      <div class="bal-before-inset" style="width: 539px;">
-                        <img src="./static/images/vis_1_sca.png">
-                        <div class="bal-beforePosition beforeLabel">
-                          Scaffold-GS [Lu 2024]
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="bal-handle" style="left: 50%;">
-                      <span class=" handle-left-arrow"></span>
-                      <span class="handle-right-arrow"></span>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--/ Visual Effects. -->
-
-          <!-- Matting. -->
-          <div class="column">
-            <div class="columns is-centered">
-              <div class="column content">
-
-                <div id="example4" class="bal-container-small">
-                  <div class="bal-after">
-                    <img src="./static/images/vis_2_ours.png">
-                    <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                      Ours
-                    </div>
-                  </div>
-
-                  <div class="bal-before" style="width:62.10191082802548%;">
-                    <div class="bal-before-inset" style="width: 539px;">
-                      <img src="./static/images/vis_2_3dgs.png">
-                      <div class="bal-beforePosition beforeLabel">
-                        3d-gs [Kerbl 2023]
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="bal-handle" style="left:62.10191082802548%;">
-                    <span class=" handle-left-arrow"></span>
-                    <span class="handle-right-arrow"></span>
-                  </div>
-
-                </div>
-
-                <div id="example5" class="bal-container-small">
-                  <div class="bal-after">
-                    <img src="./static/images/vis_2_ours.png">
-                    <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                      Ours
-                    </div>
-                  </div>
-
-                  <div class="bal-before" style="width:56.77179962894249%;">
-                    <div class="bal-before-inset" style="width: 628px;">
-                      <img src="./static/images/vis_2_sca.png">
-                      <div class="bal-beforePosition beforeLabel">
-                          Scaffold-GS [Lu 2024]
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="bal-handle" style="left:56.77179962894249%;">
-                    <span class=" handle-left-arrow"></span>
-                    <span class="handle-right-arrow"></span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-<script>
-  new BeforeAfter({
-    id: '#example1'
-  });
-  new BeforeAfter({
-    id: '#example2'
-  });
-  new BeforeAfter({
-    id: '#example4'
-  });
-  new BeforeAfter({
-    id: '#example5'
-  });
-
-</script>
 
 
 <section class="section" id="BibTeX">
