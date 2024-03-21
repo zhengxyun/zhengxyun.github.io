@@ -4,7 +4,7 @@ title: Selected Projects
 ---
 
 <div style="margin-bottom: 20px;">
-  <div style="display: flex; align-items: center; background-color: rgb(133, 149, 171); color: black; border-radius: 4px; overflow: hidden;">
+  <div style="display: flex; align-items: center; background-color: rgb(106, 120, 138); color: black; border-radius: 4px; overflow: hidden;">
     <div style="flex: 1;">
       <img src="/paper_cnc_teaser.png" style="max-height: 105pt; margin-top: 12px; margin-left: 20px;">
     </div>
@@ -21,7 +21,7 @@ title: Selected Projects
 
 <div style="margin-bottom: 20px;">
 
-  <div style="display: flex; align-items: center; background-color: rgb(133, 149, 171); color: black; border-radius: 4px; overflow: hidden;">
+  <div style="display: flex; align-items: center; background-color: rgb(106, 120, 138); color: black; border-radius: 4px; overflow: hidden;">
     <div style="flex: 1;">
       <img src="/paper_hac_teaser.png" style="max-height: 105pt; margin-top: 12px; margin-left: 20px;">
     </div>
