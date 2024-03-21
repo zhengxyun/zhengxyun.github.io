@@ -81,7 +81,7 @@
     text-decoration: none;
 
     small {
-      color: var(--gray-600);
+      color: rgb(255, 255, 255);
     }
   }
 }
@@ -89,7 +89,7 @@
 .post-tags-section {
   display: block;
   padding: var(--spacer) 0;
-  color: var(--gray-600);
+  color: rgb(255, 255, 255);
   font-family: var(--body-font);
 }
 
