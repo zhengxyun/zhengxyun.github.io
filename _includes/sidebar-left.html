@@ -13,9 +13,13 @@
     <a href="{{ "/" | relative_url }}" title="Home">{{ site.title }}</a>
   </div>
   <div class="masthead-tagline">
-    <small>{{ site.description }}</small>
-    <small>{{ site.description2 }}</small>
-  </div>
+    <div style="display: block;">
+      <small>{{ site.description }}</small>
+    </div>
+    <div style="display: block;">
+      <small>{{ site.description2 }}</small>
+    </div>
+</div>
   {%- if site.data.navigation -%}
   <nav class="navigation">
     <ul class="navigation-list">
