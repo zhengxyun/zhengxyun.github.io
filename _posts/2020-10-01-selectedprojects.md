@@ -13,7 +13,7 @@ title: Selected Projects
       <p style="margin: 1px 0;"><b>HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</b></p>
       <p style="margin: 10px 0;"><em>arxiv preprint 2024</em></p>
       <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a></p>
-      <p style="margin: -1px 0;"><a href="https://yihangchen-ee.github.io/" target="_blank">[PDF]</a>, <a href="https://yihangchen-ee.github.io/project_hac/" target="_blank">[Project Page]</a>, <a href="https://github.com/yihangchen-ee/hac/" target="_blank">[Code]</a></p>
+      <p style="margin: -1px 0;"><a href="https://arxiv.org/abs/2403.14530" target="_blank">[PDF]</a>, <a href="https://yihangchen-ee.github.io/project_hac/" target="_blank">[Project Page]</a>, <a href="https://github.com/yihangchen-ee/hac/" target="_blank">[Code]</a></p>
     </div>
   </div>
 
