@@ -4,10 +4,14 @@ title: Publication List
 ---
 
 
- - <small>**<u>Y. Chen</u>**, Q. Wu, J. Cai, M. Harandi, W. Lin, "HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression", arXiv preprint arXiv:2403.14530 (2024).</small>
- - <small>**<u>Y. Chen</u>**, Q. Wu, M. Harandi, J. Cai, "How Far Can We Compress Instant-NGP-Based NeRF?", CVPR 2024.</small>
- - <small>S. Liu, W. Lin, **<u>Y. Chen</u>**, Y. Zhang, W. Dai, J. See, H. Xiong, "A Unified Framework for Jointly Compressing Visual and Semantic Data", ACM Trans. Multimedia Computing, Communications, and Applications, 2024.</small>
- - <small>**<u>Y. Chen</u>**, W. Dong, Y. Xie, "A dual realization of Chua’s chaotic oscillator using a current-controlled nonlinear resistor." 2021 IEEE 3rd International Conference on Circuits and Systems (ICCS). IEEE, 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9697183)] (*This is my very first published paper. Most sincere appreciations to [Prof. Weijie Dong](http://faculty.dlut.edu.cn/0912345/zh_CN/index.htm)*'s guidance to this paper.)</small>
+ - <small>**<u>Xiaoyun Zheng</u>**, Liwei Liao, Xufeng Li, Jianbo Jiao, Rongjie Wang, Feng Gao, Shiqi Wang, Ronggang Wang. "PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling", in IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2024).</small>
+ - <small>**<u>Xiaoyun Zheng</u>**, Liwei Liao, Jianbo Jiao, Feng Gao, Ronggang Wang, "Surface-SOS: Self-Supervised Object Segmentation via Neural Surface Representation", IEEE Transactions on Image Processing (TIP), 2023.</small>
+ - <small>Jianbo Yu, **<u>Xiaoyun Zheng</u>**,  Shijing Wang, "A deep autoencoder feature learning method for process pattern recognition",Journal of Process  Control. 2019, 79: 1–15.</small>
+ - <small>Jianbo Yu, **<u>Xiaoyun Zheng</u>**, Jiatong Liu, "Stacked convolutional sparse denoising auto-encoder for identification of defect patterns in semiconductor wafer map", Computers in Industry, 2019, 109:121-133.</small>
+ - <small>Jianbo Yu, **<u>Xiaoyun Zheng</u>**, Shijing Wang, "Stacked denoising autoencoder-based feature learning for out-of-control source recognition in multivariate manufacturing process",Quality and Reliability Engineering International. 2019, 35(1): 204-223.</small>
+ - <small>**<u>Xiaoyun Zheng</u>**, Jianbo Yu, "Multivariate Process Monitoring and Fault Identification Using Convolutional Neural Networks", Proceeding of the 24th International Conference on Industrial Engineering and Engineering Management 2018.</small>
+ - <small>**<u>Xiaoyun Zheng</u>**, Jianbo Yu, Haiqiang Liu, Hui Cheng, Xiwu Sun, Hao Wu, "Modeling and Analysis of Adaptive Weighted Variance Propagation Network in Hybrid Multistage Machining Processes", Journal of Mechanical Engineering, 2018, 54(13): 179-191.</small>
+ - <small>Jianbo Yu, **<u>Xiaoyun Zheng</u>**, Chuanfeng Li, Chenyang Dong, "Clinical Pathway Modeling by Petri Net Based on Process Mining",Journal of Tongji University (Natural Science), 2018, 46(4): 524-534, 549.</small>
 
 
 <!--
