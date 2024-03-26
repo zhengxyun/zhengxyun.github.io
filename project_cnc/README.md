@@ -1,1 +1,0 @@
-# lightgaussian.github.io
