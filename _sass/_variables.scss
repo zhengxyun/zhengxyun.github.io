@@ -37,9 +37,9 @@
   --link-color: var(--blue);
   --link-hover-color: #1c7ed6;
 
-  --heading-color: #fff;
+  --heading-color: --gray-900;
 
-  --border-color: rgba(255,255,255,.15);
+  --border-color: var(--gray-300);
   --border-radius: .25rem;
 
   --code-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
