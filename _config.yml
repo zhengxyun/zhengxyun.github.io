@@ -2,7 +2,7 @@
 title: Xiaoyun Zheng (郑小云)
 description: PKU-PCNL Joint Ph.D. candidate
 url: https://zhengxyun.github.io/
-avatar: /me.jpg
+avatar: /me.jpeg
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpg
@@ -37,7 +37,7 @@ social:
   links:
     # - https://twitter.com/vszhub
     - https://zhengxyun.github.io/
-google_site_verification: xxxxx
+google_site_verification: moTqRX4AAAAJ&hl=zh-CN&oi=ao
 lang: en
 
 sass:
