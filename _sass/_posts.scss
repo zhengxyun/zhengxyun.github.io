@@ -46,7 +46,7 @@
   display: block;
   margin-top: -.5rem;
   margin-bottom: var(--spacer);
-  color: var(--gray-600);
+  color: var(--gray-000);
 }
 
 .comment-count {
@@ -81,7 +81,7 @@
     text-decoration: none;
 
     small {
-      color: var(--gray-600);
+      color: var(--gray-000);
     }
   }
 }
@@ -89,7 +89,7 @@
 .post-tags-section {
   display: block;
   padding: var(--spacer) 0;
-  color: var(--gray-600);
+  color: var(--gray-000);
   font-family: var(--body-font);
 }
 
