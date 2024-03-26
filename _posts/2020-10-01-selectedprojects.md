@@ -11,9 +11,9 @@ title: Selected Projects
     </div>
     <div style="flex: 2; padding-left: 1px; padding-top: 12px; padding-bottom: 13px; margin-left: 30px;">
       <p style="margin: 1px 0;"><b>PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling</b></p>
+      <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Xiaoyun Zheng</u></span>, <a href="https://github.com/leviome" target="_blank">Weili Liao</a>, <a href="" target="_blank">Xufeng Li</a>, <a href="https://jianbojiao.com" target="_blank">Jianbo Jiao</a>, <a href="https://github.com/rongjiewang" target="_blank">Rongjie Wang</a>, <a href="https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm" target="_blank">Feng Gao</a>, <a href="https://www.cs.cityu.edu.hk/~shiqwang/" target="_blank">Shiqi Wang</a>, <a href="https://www.ece.pku.edu.cn/info/1046/2147.htm" target="_blank">Ronggang Wang</a></p>
       <p style="margin: 10px 0;"><em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024</em></p>
       <p style="margin: -1px 0;"><a href="https://arxiv.org/abs/2403.16080" target="_blank">[PDF]</a>, <a href="https://pku-dymvhumans.github.io/" target="_blank">[Project Page]</a>, <a href="https://github.com/zhengxyun/PKU-DyMVHumans" target="_blank">[Code]</a></p>
-      <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Xiaoyun Zheng</u></span>, <a href="https://github.com/leviome" target="_blank">Weili Liao</a>, <a href="" target="_blank">Xufeng Li</a>, <a href="https://jianbojiao.com" target="_blank">Jianbo Jiao</a>, <a href="https://github.com/rongjiewang" target="_blank">Rongjie Wang</a>, <a href="https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm" target="_blank">Feng Gao</a>, <a href="https://www.cs.cityu.edu.hk/~shiqwang/" target="_blank">Shiqi Wang</a>, <a href="https://www.ece.pku.edu.cn/info/1046/2147.htm" target="_blank">Ronggang Wang</a></p>
     </div>
   </div>
 
