@@ -5,7 +5,7 @@ title: Selected Projects
 
 <div style="margin-bottom: 20px;">
 
-  <div style="display: flex; align-items: center; background-color: rgb(173, 176, 179); color: black; border-radius: 4px; overflow: hidden;">
+  <div style="display: flex; align-items: center; background-color: rgb(135, 139, 146); color: black; border-radius: 4px; overflow: hidden;">
     <div style="flex: 1;">
       <img src="/paper_dym_teaser.png" style="max-height: 105pt; margin-top: 12px; margin-left: 20px;">
     </div>
@@ -24,7 +24,7 @@ title: Selected Projects
 
   <div style="display: flex; align-items: center; background-color: rgb(206, 212, 218); color: black; border-radius: 4px; overflow: hidden;">
     <div style="flex: 1;">
-      <img src="/paper_sos_teaser.png" style="max-height: 120pt; margin-top: 12px; margin-left: 30px;">
+      <img src="/paper_sos_teaser.png" style="max-height: 120pt; margin-top: 12px; margin-left: 40px;">
     </div>
     <div style="flex: 2; padding-left: 1px; padding-top: 12px; padding-bottom: 13px; margin-left: 30px;">
       <p style="margin: 1px 0;"><b>Surface-SOS: Self-Supervised Object Segmentation via Neural Surface Representation</b></p>
