@@ -30,7 +30,7 @@ title: Selected Projects
       <p style="margin: 1px 0;"><b>Surface-SOS: Self-Supervised Object Segmentation via Neural Surface Representation</b></p>
       <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Xiaoyun Zheng</u></span>, <a href="https://github.com/leviome" target="_blank">Liwei Liao</a>, <a href="https://jianbojiao.com" target="_blank">Jianbo Jiao</a>, <a href="https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm" target="_blank">Feng Gao</a>,  <a href="https://www.ece.pku.edu.cn/info/1046/2147.htm" target="_blank">Ronggang Wang</a></p>
       <p style="margin: 10px 0;"><em>IEEE Transaction on Image Processing (T-IP), 2024</em></p>
-      <p style="margin: -1px 0;"><a href="https://ieeexplore.ieee.org/abstract/document/10471326" target="_blank">[Paper]</a>, <a href="https://github.com/zhengxyun/Surface-SOS" target="_blank">[Code]</a></p>
+      <p style="margin: -1px 0;"><a href="https://ieeexplore.ieee.org/abstract/document/10471326" target="_blank">[Paper]</a>, <a href="https://zhengxyun.github.io/Surface-SOS/" target="_blank">[Code]</a></p>
     </div>
   </div>
 
