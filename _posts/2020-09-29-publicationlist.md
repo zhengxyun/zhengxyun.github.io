@@ -4,7 +4,7 @@ title: Publication List
 ---
 
 
- - <small>**<u>Xiaoyun Zheng</u>**, Liwei Liao, Xufeng Li, Jianbo Jiao, Rongjie Wang, Feng Gao, Shiqi Wang, Ronggang Wang<sup>*</sup>. "PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling", in IEEE Conference on Computer Vision and Pattern Recognition, 2024.</small>
+ - <small>**<u>Xiaoyun Zheng</u>**, Liwei Liao, Xufeng Li, Jianbo Jiao, Rongjie Wang, Feng Gao, Shiqi Wang, Ronggang Wang<sup>*</sup>. "PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling", Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024, 22530-22540.</small>
  - <small>**<u>Xiaoyun Zheng</u>**, Liwei Liao, Jianbo Jiao, Feng Gao, Ronggang Wang<sup>*</sup>, "Surface-SOS: Self-Supervised Object Segmentation via Neural Surface Representation", in IEEE Transactions on Image Processing, 2024, 33: 2018-2031.</small>
  - <small>Jianbo Yu<sup>*</sup>, **<u>Xiaoyun Zheng</u>**,  Shijing Wang, "A deep autoencoder feature learning method for process pattern recognition", Journal of Process  Control, 2019, 79: 1–15.</small>
  - <small>Jianbo Yu<sup>*</sup>, **<u>Xiaoyun Zheng</u>**, Jiatong Liu, "Stacked convolutional sparse denoising auto-encoder for identification of defect patterns in semiconductor wafer map", Computers in Industry, 2019, 109:121-133.</small>
